@@ -193,16 +193,16 @@ const ContactUs = ({ language, t }) => {
               <div className="contact-social">
                 <span className="social-label">{t.contactUs.connectWithUs}</span>
                 <div className="social-icons">
-                  <a href="#" className="social-link" title="TikTok">
+                  <a href="https://www.tiktok.com/@happympm.official" target="_blank" rel="noopener noreferrer" className="social-link" title="TikTok">
                     <span>🎵</span>
                   </a>
-                  <a href="#" className="social-link" title="Facebook">
+                  <a href="https://www.facebook.com/happympmofficial/?_rdc=2&_rdr" target="_blank" rel="noopener noreferrer" className="social-link" title="Facebook">
                     <FaFacebook size={20} />
                   </a>
-                  <a href="#" className="social-link" title="YouTube">
+                  <a href="https://www.youtube.com/@happympmofficial/featured" target="_blank" rel="noopener noreferrer" className="social-link" title="YouTube">
                     <FaYoutube size={20} />
                   </a>
-                  <a href="#" className="social-link" title="LINE">
+                  <a href="https://page.line.me/happympm?openQrModal=true" target="_blank" rel="noopener noreferrer" className="social-link" title="LINE">
                     <SiLine size={20} />
                   </a>
                 </div>

@@ -55,16 +55,16 @@ const Footer = ({ language, t }) => {
           {/* Social Media */}
           <div className="footer-section footer-social">
             <div className="social-icons-footer">
-              <a href="#" className="social-icon-footer" title="TikTok">
+              <a href="https://www.tiktok.com/@happympm.official" target="_blank" rel="noopener noreferrer" className="social-icon-footer" title="TikTok">
                 <FaTiktok size={24} />
               </a>
-              <a href="#" className="social-icon-footer" title="Facebook">
+              <a href="https://www.facebook.com/happympmofficial/?_rdc=2&_rdr" target="_blank" rel="noopener noreferrer" className="social-icon-footer" title="Facebook">
                 <FaFacebook size={24} />
               </a>
-              <a href="#" className="social-icon-footer" title="YouTube">
+              <a href="https://www.youtube.com/@happympmofficial/featured" target="_blank" rel="noopener noreferrer" className="social-icon-footer" title="YouTube">
                 <FaYoutube size={24} />
               </a>
-              <a href="#" className="social-icon-footer" title="Instagram">
+              <a href="https://page.line.me/happympm?openQrModal=true" target="_blank" rel="noopener noreferrer" className="social-icon-footer" title="LINE">
                 <FaInstagram size={24} />
               </a>
             </div>

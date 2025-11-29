@@ -12,6 +12,8 @@ const AppRoutes = () => {
       <Route path="/executive" element={<App />} />
       <Route path="/business-tool/:id" element={<App />} />
       <Route path="/calendar-of-events" element={<App />} />
+      <Route path="/news-article/:id" element={<App />} />
+      <Route path="/branches" element={<App />} />
     </Routes>
   );
 };

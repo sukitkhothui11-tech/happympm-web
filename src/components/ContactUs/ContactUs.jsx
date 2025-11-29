@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./contactUs.css";
 import { FiPhone, FiMail, FiClock, FiHeadphones } from "react-icons/fi";
-import { FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaYoutube, FaTiktok } from "react-icons/fa";
 import { SiLine } from "react-icons/si";
 
 const ContactUs = ({ language, t }) => {
@@ -194,7 +194,7 @@ const ContactUs = ({ language, t }) => {
                 <span className="social-label">{t.contactUs.connectWithUs}</span>
                 <div className="social-icons">
                   <a href="https://www.tiktok.com/@happympm.official" target="_blank" rel="noopener noreferrer" className="social-link" title="TikTok">
-                    <span>🎵</span>
+                    <FaTiktok size={20} />
                   </a>
                   <a href="https://www.facebook.com/happympmofficial/?_rdc=2&_rdr" target="_blank" rel="noopener noreferrer" className="social-link" title="Facebook">
                     <FaFacebook size={20} />

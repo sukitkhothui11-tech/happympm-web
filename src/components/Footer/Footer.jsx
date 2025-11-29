@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
-import { FaTiktok, FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaTiktok, FaFacebook, FaYoutube } from "react-icons/fa";
+import { SiLine } from "react-icons/si";
 
 const Footer = ({ language, t }) => {
   return (
@@ -65,7 +66,7 @@ const Footer = ({ language, t }) => {
                 <FaYoutube size={24} />
               </a>
               <a href="https://page.line.me/happympm?openQrModal=true" target="_blank" rel="noopener noreferrer" className="social-icon-footer" title="LINE">
-                <FaInstagram size={24} />
+                <SiLine size={24} />
               </a>
             </div>
           </div>

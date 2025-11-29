@@ -1,0 +1,246 @@
+@import "../../App.css";
+
+/* Social Activity Detail Page */
+.social-activity-detail-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.social-activity-detail-content {
+  background-color: #ffffff;
+}
+
+/* Hero Section */
+.social-activity-detail-hero {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #0043a8 0%, #003285 100%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.social-activity-detail-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.social-activity-detail-subtitle {
+  font-size: 18px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Main Content Section */
+.social-activity-detail-main {
+  padding: 80px 0;
+  background-color: #f8f9fb;
+}
+
+.social-activity-detail-main-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0043a8;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.social-activity-detail-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.social-activity-detail-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+.social-activity-detail-description {
+  font-size: 16px;
+  color: #333333;
+  line-height: 2;
+  text-align: justify;
+  margin: 0;
+  background: linear-gradient(135deg, #ffffff 0%, #e8f1f8 100%);
+  padding: 40px;
+  border-radius: 12px;
+  border-left: 4px solid #0043a8;
+}
+
+/* Details Section */
+.social-activity-detail-info {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.social-activity-detail-info-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0043a8;
+  text-align: center;
+  margin: 0 0 60px 0;
+}
+
+.social-activity-detail-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.social-activity-detail-item {
+  display: flex;
+  gap: 20px;
+  padding: 25px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8f1f8 100%);
+  border-radius: 12px;
+  border-left: 4px solid #0043a8;
+  transition: all 0.3s ease;
+}
+
+.social-activity-detail-item:hover {
+  transform: translateX(8px);
+  box-shadow: 0 8px 24px rgba(0, 67, 168, 0.12);
+}
+
+.social-activity-detail-icon {
+  font-size: 20px;
+  color: #0043a8;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.social-activity-detail-text {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Closing Section */
+.social-activity-detail-closing {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #0043a8 0%, #003285 100%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.social-activity-detail-closing-text {
+  font-size: 18px;
+  line-height: 2;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+.social-activity-detail-back-button {
+  background-color: #ffffff;
+  color: #0043a8;
+  border: 2px solid #ffffff;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social-activity-detail-back-button:hover {
+  background-color: #ffeb3b;
+  border-color: #ffeb3b;
+  color: #0043a8;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .social-activity-detail-hero {
+    padding: 60px 0;
+  }
+
+  .social-activity-detail-title {
+    font-size: 36px;
+  }
+
+  .social-activity-detail-main-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .social-activity-detail-info-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .social-activity-detail-list {
+    gap: 25px;
+  }
+
+  .social-activity-detail-item {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .social-activity-detail-main,
+  .social-activity-detail-info,
+  .social-activity-detail-closing {
+    padding: 50px 0;
+  }
+
+  .social-activity-detail-hero {
+    padding: 40px 0;
+  }
+
+  .social-activity-detail-title {
+    font-size: 24px;
+  }
+
+  .social-activity-detail-subtitle {
+    font-size: 14px;
+  }
+
+  .social-activity-detail-main-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .social-activity-detail-description {
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 30px 20px;
+  }
+
+  .social-activity-detail-info-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .social-activity-detail-list {
+    gap: 20px;
+  }
+
+  .social-activity-detail-item {
+    padding: 18px;
+    gap: 15px;
+  }
+
+  .social-activity-detail-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .social-activity-detail-closing-text {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+
+  .social-activity-detail-back-button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+}
